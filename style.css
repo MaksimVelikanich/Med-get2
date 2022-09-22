@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font: 800 30px/0.8 "Raleway";
+    padding-bottom: 10px;
+}
+
+.buttom-title {
+    font: 18px "Karla";
+}
+
+.ship {
+    display: flex;
+}
+
+.cont-1 , .cont-2 {
+    display: flex;
+}
+
+.box {
+    border: 1px solid rgb(180, 180, 180);
+    text-align: center;
+    margin-right: 20px;
+    height: 490px;
+    width: 320px;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+
+.top {
+    font: bold 20px/1.2 "Raleway";
+    border-bottom: 1px solid rgb(180, 180, 180);
+    margin-top: 35px;
+    padding-bottom:20px ;
+    font-size: 25px;
+}
+
+.price {
+    font: 500 18px "Raleway";
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.img {
+    position: absolute;
+    top: 1;
+    left: 1;
+    display: flex;
+}
+
+.money {
+    color: orange;
+}
+
+.buttom {
+    color: white;
+    background-color: #24c3e2;
+    border: 1px solid #24c3e2;
+    border-radius: 35px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 105px;
+    transition: 1s;
+}
+
+.last {
+    margin-bottom: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+.x {
+    margin-top:60px;
+}
+
+
+.buttom:hover {
+    cursor: pointer;
+    background-color: #22b2cf;
+    transition: 1s;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 5px 0px;
+    transition: 1s;
+}
+
+@media screen and (max-width: 1279px) {
+    .ship{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cont-1{
+        display: block;
+    }
+    .cont-2{
+        display: block;
+    }
+}
